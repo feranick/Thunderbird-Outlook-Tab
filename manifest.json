@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Outlook Tab",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.3.0.1",
+  "author": "Nicola Ferralis",
+  "homepage_url": "https://github.com/feranick/Thunderbird-Outlook-Tab/",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "feranick.outlook-tab@addons.thunderbird.net",
+      "strict_min_version": "106.0"
+    }
+  },  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.outlook.com/*"
+  ],
+  "default_locale": "en",
+  "icons": {
+    "32": "skin/outlook_icon.svg",
+    "48": "skin/outlook_icon.svg",
+    "96": "skin/outlook_icon.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
