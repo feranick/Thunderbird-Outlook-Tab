@@ -1,4 +1,4 @@
-# outlook Tab
+# Outlook Tab
 Unofficial Outlook add-on for Thunderbird, it adds a button in Spaces that opens a Outlook (web version)) tab in Thunderbird.
 The [home page](https://addons.mozilla.org/thunderbird/addon/outlooktab/) of the extension contains some pictures and reviews.
 
